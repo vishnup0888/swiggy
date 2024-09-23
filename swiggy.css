@@ -1,8 +1,18 @@
 .main{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(235, 223, 0);
+    background-color: rgb(255, 115, 0);
     position:relative;
-     
+}
+.main2{
+    display: flex;
+    gap:30px;
+}
+.m0{
+    padding-left: 50px;
+    
+}
+.round{
 
+    border-radius: 15px;
 }
