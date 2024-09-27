@@ -90,10 +90,36 @@
 }
 .main14{
     justify-content: space-between;
-    padding: 100px;
+    padding: 50px;
     display: flex;
     margin:left;
 }
+.main15{
+    justify-content: space-between;
+    padding: 30px;
+    display: flex;
+    margin:left;
+}
+.footer{
+background-color: #111010;
+color: white;
+text-align: center;
+padding: 8dvh; 
+position: relative;
+justify-content: start;
+bottom: 0;
+width: 100%;
+list-style-type: none;
 
+}
+.z1{
+    position: relative;
+    right:500px ;
+    justify-content: space-between;
+}
+.last{
+    position: relative;
+    top: 50px;
+}
 
 
