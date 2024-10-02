@@ -1,17 +1,21 @@
+
 .main{
     display: flex;
     justify-content: space-between;
     background-color: rgb(255, 115, 0);
     position:relative;
     margin: 0px;
+    width: 100%;
+    
 }
 .main2{
     display: flex;
-    gap:30px;
+    gap:80px;
+    padding-left: 200px;
     
 }
 .m0{
-    padding-left: 50px;
+    padding-left: 40px;
     
 }
 .round{
@@ -20,8 +24,9 @@
 }
 .main1{
     display: flex;
-    padding-left: 20px;
-
+    padding-left: 50px;
+    overflow: auto;
+    cursor: pointer;
     
 }
 .p{
@@ -31,12 +36,16 @@
 .main3{
     display: flex;
     position: relative;
-    justify-content:space-evenly;
+
+    gap: 80px;
+    padding-left: 230px;
+    
 }
 .main4{
     display: flex;
-    gap: 30px;
-    padding: 40px;
+    gap: 80px;
+    padding-left:220px;
+    
 }
 .main5{
 
@@ -93,9 +102,9 @@
 }
 .main14{
     justify-content: space-between;
-    padding: 50px;
-    display: flex;
-    margin:left;
+    padding: 100px;
+    
+    
 }
 .main15{
     justify-content: space-between;
@@ -142,5 +151,10 @@ list-style-type: none;
     margin-bottom: 10px;
 }
 body{
-    width: 1400px;
+    width: 100%;
+}
+.k1{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
 }
