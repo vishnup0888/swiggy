@@ -1,12 +1,19 @@
 
 .main{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: rgb(255, 115, 0);
     position:relative;
-    margin: 0px;
+    margin: auto;
     width: 100%;
+    height: 60px;
     
+    position:fixed;
+    z-index: 1;
+
+}
+.main:hover{
+    color: rgb(4, 16, 252);
 }
 .main2{
     display: flex;
@@ -157,4 +164,8 @@ body{
     display: flex;
     margin: 50px;
     justify-content: space-between;
+}
+.sw0{
+    position: relative;
+    bottom: 10px;
 }
